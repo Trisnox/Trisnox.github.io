@@ -1,0 +1,247 @@
+body{
+  	margin: 0;
+  	padding: 0;
+  	font-family: Arial, Helvetica, sans-serif;
+  	background: #4d4d4d;
+}
+.cover{
+	padding: 0;
+	position: absolute;
+	z-index: 0;
+}
+.cover img{
+	max-width: 100%;
+	max-height: 100vh;
+	margin: auto;
+}
+.pfp{
+  	padding: 0;
+  	position: absolute;
+  	top: 100px;
+  	left: 50%;
+  	transform: translate(-50%, 0);
+  	background: transparent;
+  	text-align: center;
+	color: white;
+	z-index: 2;
+}
+.pfp div.image img{
+	border-radius: 50%;
+	border: 5px solid #ffec3a;
+}
+.pfp div.links div.itaku a{
+	width: 100%;
+	display: block;
+	padding: 14px 0;
+	height: auto;
+	position: relative;
+	border: 4px solid transparent;
+	border-color: #ffec3a;
+	font-size: 35px;
+	text-align: center;
+	margin: 20px auto;
+	transition: 0.35s;
+	cursor: pointer;
+	color: #ffec3a;
+	text-decoration: none;
+}
+.pfp div.links div.itaku img{
+	vertical-align: middle;
+	position: relative;
+	margin-right: 135px;
+}
+.pfp div.links div.itaku a:hover::before{
+	-webkit-background-clip: border-box;
+	background-clip: border-box;
+}
+.pfp div.links div.itaku a:hover{
+	filter: drop-shadow(0 0 5px #ffec3a);
+	background: #ffec3a;
+	color: white;
+	position: relative;
+	width: 110%;
+	border-radius: 5px;
+}
+.pfp div.links div.instagram a{
+	width: 100%;
+	display: block;
+	padding: 14px 0;
+	height: auto;
+	position: relative;
+	border: 4px solid transparent;
+	border-image: linear-gradient(to bottom right, #FEDA75 0%, #FA7E1E 25%, #D62976 50%, #962FBF 75%, #4F5BD5 100%);
+	border-image-slice: 1;
+	background: white;
+	margin: 20px auto;
+	font-size: 35px;
+	text-align: center;
+	transition: 0.35s;
+	cursor: pointer;
+	background-image: linear-gradient(to bottom right, #FEDA75 0%, #FA7E1E 25%, #D62976 50%, #962FBF 75%, #4F5BD5 100%); -webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	background-color: #4d4d4d;
+	text-decoration: none;
+}
+.pfp div.links div.instagram img{
+	vertical-align: middle;
+	position: relative;
+	margin-right: 85px;
+	background: linear-gradient(to bottom right, #FEDA75 0%, #FA7E1E 25%, #D62976 50%, #962FBF 75%, #4F5BD5 100%);
+	border-radius: 20%;
+}
+.pfp div.links div.instagram a:hover::before{
+	-webkit-background-clip: border-box;
+	background-clip: border-box;
+}
+.pfp div.links div.instagram a:hover{
+	filter: drop-shadow(0 0 5px purple);
+	background: #241d33;
+	color: white;
+	width: 110%;
+	border-radius: 5px;
+}
+.pfp div.links div.twitter a{
+	width: 100%;
+	display: block;
+	padding: 14px 0;
+	height: auto;
+	position: relative;
+	border: 4px solid transparent;
+	border-color: #00aced;
+	font-size: 35px;
+	text-align: center;
+	margin: 20px auto;
+	transition: 0.35s;
+	cursor: pointer;
+	color: #00aced;
+	text-decoration: none;
+}
+.pfp div.links div.twitter img{
+	vertical-align: middle;
+	position: relative;
+	margin-right: 135px;
+}
+.pfp div.links div.twitter a:hover::before{
+	-webkit-background-clip: border-box;
+	background-clip: border-box;
+}
+.pfp div.links div.twitter a:hover{
+	filter: drop-shadow(0 0 5px #1A5891);
+	background: #1A5891;
+	color: white;
+	position: relative;
+	width: 110%;
+	border-radius: 5px;
+}
+.pfp div.links div.youtube a{
+	width: 100%;
+	display: block;
+	padding: 14px 0;
+	height: auto;
+	position: relative;
+	border: 4px solid transparent;
+	border-color: #FF0000;
+	font-size: 35px;
+	text-align: center;
+	margin: 20px auto;
+	transition: 0.35s;
+	cursor: pointer;
+	color: #FF0000;
+	text-decoration: none;
+}
+.pfp div.links div.youtube img{
+	vertical-align: middle;
+	position: relative;
+	margin-right: 85px;
+}
+.pfp div.links div.youtube a:hover::before{
+	-webkit-background-clip: border-box;
+	background-clip: border-box;
+	background: transparent
+}
+.pfp div.links div.youtube a:hover{
+	filter: drop-shadow(0 0 5px #BF0000);
+	background: #BF0000;
+	color: white;
+	position: relative;
+	width: 110%;
+	border-radius: 5px;
+}
+.pfp div.links div.newgrounds a{
+	width: 100%;
+	display: block;
+	padding: 14px 0;
+	height: auto;
+	position: relative;
+	border: 4px solid transparent;
+	border-color: #f6af0e;
+	font-size: 35px;
+	text-align: center;
+	margin: 20px auto;
+	transition: 0.35s;
+	cursor: pointer;
+	color: #fff17a;
+	text-decoration: none;
+}
+.pfp div.links div.newgrounds img{
+	vertical-align: middle;
+	position: relative;
+	margin-right: 55px;
+}
+.pfp div.links div.newgrounds a:hover::before{
+	-webkit-background-clip: border-box;
+	background-clip: border-box;
+}
+.pfp div.links div.newgrounds a:hover{
+	filter: drop-shadow(0 0 5px #f6af0e);
+	background: #f6af0e;
+	color: white;
+	position: relative;
+	width: 110%;
+	border-radius: 5px;
+}
+.pfp div.links div.github a{
+	width: 100%;
+	display: block;
+	padding: 14px 0;
+	height: auto;
+	position: relative;
+	border: 4px solid transparent;
+	border-color: white;
+	font-size: 35px;
+	text-align: center;
+	margin: 20px auto;
+	transition: 0.35s;
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+}
+.pfp div.links div.github img{
+	vertical-align: middle;
+	position: relative;
+	margin-right: 140px;
+}
+.pfp div.links div.github a:hover::before{
+	-webkit-background-clip: border-box;
+	background-clip: border-box;
+}
+.pfp div.links div.github a:hover{
+	filter: drop-shadow(0 0 5px gray);
+	background: black;
+	color: white;
+	position: relative;
+	width: 110%;
+	border-radius: 5px;
+}
+.filler{
+	width: 100%;
+  	height: 100%;
+  	padding: 0;
+  	position: absolute;
+  	top: 175px;
+  	left: 50%;
+  	transform: translate(-50%, 0);
+	background: #4d4d4d;
+	z-index: 1;
+}
