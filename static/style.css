@@ -108,13 +108,13 @@ body{
 	height: auto;
 	position: relative;
 	border: 4px solid transparent;
-	border-color: #00aced;
+	border-color: white;
 	font-size: 35px;
 	text-align: center;
 	margin: 20px auto;
 	transition: 0.35s;
 	cursor: pointer;
-	color: #00aced;
+	color: white;
 	text-decoration: none;
 }
 .pfp div.links div.twitter img{
@@ -127,8 +127,8 @@ body{
 	background-clip: border-box;
 }
 .pfp div.links div.twitter a:hover{
-	filter: drop-shadow(0 0 5px #1A5891);
-	background: #1A5891;
+	filter: drop-shadow(0 0 5px black);
+	background: black;
 	color: white;
 	position: relative;
 	width: 110%;
