@@ -134,6 +134,39 @@ body{
 	width: 110%;
 	border-radius: 5px;
 }
+.pfp div.links div.bsky a{
+	width: 100%;
+	display: block;
+	padding: 14px 0;
+	height: auto;
+	position: relative;
+	border: 4px solid transparent;
+	border-color: #0886fe;
+	font-size: 35px;
+	text-align: center;
+	margin: 20px auto;
+	transition: 0.35s;
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+}
+.pfp div.links div.bsky img{
+	vertical-align: middle;
+	position: relative;
+	margin-right: 135px;
+}
+.pfp div.links div.bsky a:hover::before{
+	-webkit-background-clip: border-box;
+	background-clip: border-box;
+}
+.pfp div.links div.bsky a:hover{
+	filter: drop-shadow(0 0 5px black);
+	background: #055db1;
+	color: white;
+	position: relative;
+	width: 110%;
+	border-radius: 5px;
+}
 .pfp div.links div.youtube a{
 	width: 100%;
 	display: block;
